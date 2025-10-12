@@ -1,16 +1,31 @@
-## Hi there 👋
+# hey 👋
 
-<!--
-**acoyfellow/acoyfellow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+designer and developer running [SendGrowth](https://sendgrowth.com). i build products from concept to production—design, code, and ship.
 
-Here are some ideas to get you started:
+i'm obsessed with finding new ways to leverage AI and modern tools to solve old problems. i build a lot of small, focused products that do one thing really well.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## what i'm into
+
+AI-powered automation. building tools that take tedious workflows and make them instant.
+
+edge computing patterns. distributed systems, real-time workflows, scalable caching.
+
+product design. clean, focused interfaces that solve specific problems.
+
+rapid shipping. turning ideas into working products fast.
+
+## stack
+
+whatever gets the job done fastest. right now: edge workers, durable objects, websockets, svelte, AI APIs.
+
+## featured projects
+
+check out my pinned repos for production-ready patterns in distributed systems and edge computing.
+
+## find me
+
+[coey.dev](https://coey.dev) • [@acoyfellow](https://x.com/acoyfellow) • [coeyman](https://facebook.com/coeyman)
+
+---
+
+cherry hill, nj
