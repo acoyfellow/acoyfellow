@@ -2,9 +2,11 @@
 
 designer and developer running [SendGrowth](https://sendgrowth.com). i build products from concept to production—design, code, and ship.
 
-i'm obsessed with finding new ways to leverage AI and modern tools to solve old problems. i build a lot of small, focused products that do one thing really well.
+i'm obsessed with finding new ways to leverage modern tools to solve problems. i build a lot of small, focused products that aim to do one thing really well.
 
 ## what i'm into
+
+iterating with customers directly.
 
 AI-powered automation. building tools that take tedious workflows and make them instant.
 
