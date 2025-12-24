@@ -18,7 +18,9 @@ rapid shipping. turning ideas into working products fast.
 
 ## stack
 
-whatever gets the job done fastest. right now: edge workers, durable objects, websockets, svelte, AI APIs.
+My own: [remote](https://remote.coey.dev) `bun create remote-app my-app` (sveltekit with batteries for auth+db+more)
+
+But, whatever gets the job done fastest and correctly. right now i'm working in: edge workers, durable objects, websockets, svelte kit, AI APIs.
 
 ## featured projects
 
