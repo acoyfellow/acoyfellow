@@ -6,7 +6,7 @@ founder. i design, build, and ship products.
 
 i take ideas from nothing to production. design, code, copy, infrastructure - the whole thing. i try to work fast.
 
-right now i'm building tools for harnesses, e2e AI-assisted workflows, automations, and edge computing patterns. 
+right now i'm building tools *for* ai agents; harnesses, e2e AI-assisted workflows, observability, automations, and edge computing patterns. This will be the next evolution of building products for humans.
 
 ## stack
 
