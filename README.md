@@ -1,35 +1,28 @@
-# hey 👋
+# hey
 
-designer and developer running [SendGrowth](https://sendgrowth.com). i build products from concept to production—design, code, and ship.
+founder. i design, build, and ship products.
 
-i'm obsessed with finding new ways to leverage modern tools to solve problems. i build a lot of small, focused products that aim to do one thing really well.
+## what i do
 
-## what i'm into
+i take ideas from nothing to production. design, code, copy, infrastructure - the whole thing. i try to work fast.
 
-iterating with customers directly.
-
-AI-powered automation. building tools that take tedious workflows and make them instant.
-
-edge computing patterns. distributed systems, real-time workflows, scalable caching.
-
-product design. clean, focused interfaces that solve specific problems.
-
-rapid shipping. turning ideas into working products fast.
+right now i'm building tools for harnesses, e2e AI-assisted workflows, automations, and edge computing patterns. 
 
 ## stack
 
-My own: [remote](https://remote.coey.dev) `bun create remote-app my-app` (sveltekit with batteries for auth+db+more)
+cloudflare everything: workers, durable objects, d1, r2, queues. sveltekit. typescript. 
 
-But, whatever gets the job done fastest and correctly. right now i'm working in: edge workers, durable objects, websockets, svelte kit, AI APIs.
+i made [remote](https://github.com/acoyfellow/remote) - `bun create remote-app my-app` - sveltekit with auth, db, and deployment sorted.
 
-## featured projects
-
-check out my pinned repos for production-ready patterns in distributed systems and edge computing.
+## current focus
+- [phonesites](https://phonesites.com) - build websites from any device (no code) for non-technical people
+- [signedseal](https://signedseal.com) - cheap alternative for docusign
+- [loop](https://github.com/acoyfellow/loop) - orchestrate AI coding loops with guardrails
+- [gateproof](https://github.com/acoyfellow/gateproof) - e2e testing through observability
+- [inbox.dog](https://inbox.dog) - AI agents for email
+- [anytoolhq](https://anytoolhq.com) - generate tools for AI agents on-demand
+- [t2t](https://t2t.now) - Hold fn to talk, hold fn+ctrl for MCPs
 
 ## find me
 
-[coey.dev](https://coey.dev) • [@acoyfellow](https://x.com/acoyfellow) • [coeyman](https://facebook.com/coeyman)
-
----
-
-cherry hill, nj
+[coey.dev](https://coey.dev) / [@acoyfellow](https://twitter.com/acoyfellow)
