@@ -1,4 +1,4 @@
-# hey
+# hello (new) world
 
 curiosity-driven founder. i design, build, and ship products.
 
