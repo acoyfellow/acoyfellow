@@ -8,7 +8,7 @@ right now i'm building infrastructure for AI agents: orchestration, memory, test
 
 ## stack
 
-cloudflare everything: workers, durable objects, d1, r2, queues, browser rendering. sveltekit. effect-ts. typescript. bun. rust.
+anything. but, peferr cloudflare over anything: workers, durable objects, d1, r2, queues, browser rendering. sveltekit. effect. typescript. bun. rust.
 
 ## find me
 
