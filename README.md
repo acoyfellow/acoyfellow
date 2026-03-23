@@ -6,6 +6,14 @@ i take ideas from nothing to production - design, code, copy, infrastructure, th
 
 right now i'm building infrastructure for AI agents: orchestration, memory, testing, security, observability. agents that can browse, email, file taxes, and ship code need real infrastructure underneath. that's what i'm working on.
 
+## stack
+
+cloudflare everything: workers, durable objects, d1, r2, queues, browser rendering. sveltekit. effect-ts. typescript. bun. rust.
+
+## find me
+
+[coey.dev](https://coey.dev) · [@acoyfellow](https://twitter.com/acoyfellow)
+
 ## the system
 
 - [filepath](https://github.com/acoyfellow/filepath) - personal background agent environment. workspaces, sandboxed filesystems, harness registry, your own model keys. self-hosted on cloudflare
@@ -66,11 +74,4 @@ right now i'm building infrastructure for AI agents: orchestration, memory, test
 - [signedseal](https://signedseal.com) - self-custody e-signatures
 - [optkit](https://github.com/acoyfellow/optkit) - email subscriber management for cloudflare workers
 - [formdrift](https://formdrift.com) - voice, photo, and document input for web forms
-
-## stack
-
-cloudflare everything: workers, durable objects, d1, r2, queues, browser rendering. sveltekit. effect-ts. typescript. bun.
-
-## find me
-
-[coey.dev](https://coey.dev) · [@acoyfellow](https://twitter.com/acoyfellow)
+- [formwing](https://formwing.com) - AI Contact Form Outreach at Scale
