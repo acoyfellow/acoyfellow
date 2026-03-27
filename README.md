@@ -14,13 +14,13 @@ anything. but, peferr cloudflare over anything: workers, durable objects, d1, r2
 
 [coey.dev](https://coey.dev) · [@acoyfellow](https://twitter.com/acoyfellow)
 
-## the system
+## explorations
 
+- [lab](https://lab.coey.dev) - Sandboxed isolates on Cloudflare Workers with typed capabilities. Effect + Worker Loaders.
 - [filepath](https://github.com/acoyfellow/filepath) - personal background agent environment. workspaces, sandboxed filesystems, harness registry, your own model keys. self-hosted on cloudflare
 - [cloudshell](https://github.com/acoyfellow/cloudshell) - your personal terminal in the cloud. deploy in seconds, access anywhere
 - [gateproof](https://github.com/acoyfellow/gateproof) - e2e testing harness: observe logs, run actions, assert results
 - [deja](https://github.com/acoyfellow/deja) - persistent memory for agents. semantic recall across runs
-- [greenlight](https://github.com/acoyfellow/greenlight) - gates go in red. code comes out. gates turn green
 
 ## agent infrastructure
 
