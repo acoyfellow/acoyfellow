@@ -1,14 +1,6 @@
 # hello (new) world
 
-curiosity-driven founder. i design, build, and ship products.
-
-i take ideas from nothing to production - design, code, copy, infrastructure, the whole thing.
-
-right now i'm building infrastructure for AI agents: orchestration, memory, testing, security, observability. agents that can browse, email, file taxes, and ship code need real infrastructure underneath. that's what i'm working on.
-
-## stack
-
-anything. but, peferr cloudflare over anything: workers, durable objects, d1, r2, queues, browser rendering. sveltekit. effect. typescript. bun. rust.
+now working @cloudfare on the agent experience team.
 
 ## find me
 
