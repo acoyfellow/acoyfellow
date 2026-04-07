@@ -1,6 +1,6 @@
 # hello (new) world
 
-now working @cloudflare on the agent experience team.
+now working [@cloudflare](https://github.com/cloudflare) on the agent experience team.
 
 ## find me
 
