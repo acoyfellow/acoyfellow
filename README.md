@@ -21,7 +21,6 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [capa](https://github.com/acoyfellow/capa) — proof-carrying Cloudflare service bindings for third-party APIs.
 - [pai-agent](https://github.com/acoyfellow/pai-agent) — research and analysis agent as a Cloudflare Durable Object with shell access, tool use, and WebSocket streaming.
 - [prism](https://github.com/acoyfellow/prism) — parallel experiment runner on Cloudflare: orchestrator, sub-agents, sandboxed Linux containers.
-- [sandbox-agent](https://github.com/acoyfellow/sandbox-agent) — universal API for coding agents in sandboxes. Supports Claude Code, Codex, opencode, and Amp.
 - [loop](https://github.com/acoyfellow/loop) — orchestrate AI coding loops with guardrails.
 - [chomp](https://github.com/acoyfellow/chomp) — OpenAI-compatible proxy across free/cheap model providers.
 - [ditto](https://github.com/acoyfellow/ditto) — run multiple AI models in parallel, merge with consensus.
@@ -33,13 +32,13 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [t2t](https://github.com/acoyfellow/t2t) — voice-to-text with MCP support and system-wide dictation.
 - [agentcast](https://github.com/acoyfellow/agentcast) — live browser sessions for AI agents; watch them work in real time.
 - [machinectl](https://github.com/acoyfellow/machinectl) — MCP server that lets AI control your machine from any device.
+- [firestore-mcp-kit](https://github.com/acoyfellow/firestore-mcp-kit) — build secure, typed MCP tools backed by Firestore with explicit Zod schemas.
 - [inbox.dog](https://inbox.dog) — OAuth for email, simplified. Gmail access tokens without implementing OAuth yourself.
 - [anytoolhq](https://anytoolhq.com) — generate tools for AI agents on demand.
 - [gateproof](https://github.com/acoyfellow/gateproof) — E2E testing harness: observe logs, run actions, assert results.
 
 ## cloudflare patterns
 
-- [alchemy-effect](https://github.com/acoyfellow/alchemy-effect) — infrastructure-as-Effects.
 - [remote](https://github.com/acoyfellow/remote) — `bun create remote-app my-app`: SvelteKit + auth + DB + Cloudflare deployment.
 - [UserDO](https://github.com/acoyfellow/UserDO) — per-user Durable Objects as data pods.
 - [blaze](https://github.com/acoyfellow/blaze) — real-time documents on Cloudflare. Firestore feel, Cloudflare price.
@@ -51,6 +50,7 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [bio](https://github.com/acoyfellow/bio) — single-button WebAuthn auth on Cloudflare.
 - [JotDB](https://github.com/acoyfellow/JotDB) — schema-optional key-value database for Durable Objects.
 - [edgewire](https://github.com/acoyfellow/edgewire) — Node.js TCP libraries in Cloudflare Workers.
+- [cf-tutorial](https://github.com/acoyfellow/cf-tutorial) — 95 questions to prove you know Cloudflare.
 - [ironalarm](https://github.com/acoyfellow/ironalarm) — reliable task scheduling for Cloudflare Durable Objects.
 
 ## security & compliance
