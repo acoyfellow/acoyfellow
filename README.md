@@ -21,6 +21,7 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [capa](https://github.com/acoyfellow/capa) — proof-carrying Cloudflare service bindings for third-party APIs.
 - [pai-agent](https://github.com/acoyfellow/pai-agent) — research and analysis agent as a Cloudflare Durable Object with shell access, tool use, and WebSocket streaming.
 - [prism](https://github.com/acoyfellow/prism) — parallel experiment runner on Cloudflare: orchestrator, sub-agents, sandboxed Linux containers.
+- [cloudbox](https://github.com/acoyfellow/cloudbox) — synthetic cloud computers for training and evaluating long-horizon agents. Persona → filesystem → artifacts → collaborators → simulation → retrospective, end-to-end on Cloudflare.
 - [loop](https://github.com/acoyfellow/loop) — orchestrate AI coding loops with guardrails.
 - [chomp](https://github.com/acoyfellow/chomp) — OpenAI-compatible proxy across free/cheap model providers.
 - [ditto](https://github.com/acoyfellow/ditto) — run multiple AI models in parallel, merge with consensus.
@@ -73,4 +74,5 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 ## find me
 
 [coey.dev](https://coey.dev) · [@acoyfellow](https://twitter.com/acoyfellow)
+
 
