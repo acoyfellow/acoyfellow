@@ -52,11 +52,13 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [edgewire](https://github.com/acoyfellow/edgewire) — Node.js TCP libraries in Cloudflare Workers.
 - [cf-tutorial](https://github.com/acoyfellow/cf-tutorial) — 95 questions to prove you know Cloudflare.
 - [ironalarm](https://github.com/acoyfellow/ironalarm) — reliable task scheduling for Cloudflare Durable Objects.
+- [flue-snippets](https://github.com/acoyfellow/flue-snippets) — real, runnable Flue agents on Cloudflare. Examples teach one product at a time; recipes compose. Every snippet ships an E2E test that deploys, asserts, and tears down.
 
 ## security & compliance
 
 - [vet](https://github.com/acoyfellow/vet) — CASA Tier 2 / OWASP ASVS security scanner.
 - [repo-audit](https://github.com/acoyfellow/repo-audit) — deterministic repo scoring across 11 quality dimensions.
+- [deadlint](https://github.com/acoyfellow/deadlint) — find dead public methods on Workers DurableObject / RpcTarget / Agent classes, plus structural clones. The linter layer above knip/oxlint.
 - [ascii-smuggler](https://github.com/acoyfellow/ascii-smuggler) — Unicode smuggling and steganography toolkit for security research.
 - [gate-review](https://github.com/acoyfellow/gate-review) — red-team your gates before implementing them.
 
@@ -71,3 +73,4 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 ## find me
 
 [coey.dev](https://coey.dev) · [@acoyfellow](https://twitter.com/acoyfellow)
+
