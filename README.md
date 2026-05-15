@@ -14,6 +14,7 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [mcpu](https://github.com/acoyfellow/mcpu) — MCP control surface for a Cloudflare Artifacts repo.
 - [cloudshell](https://github.com/acoyfellow/cloudshell) — your personal terminal in the cloud. Deploy in seconds, access anywhere.
 - [filepath](https://github.com/acoyfellow/filepath) — personal Cloudflare-hosted development environment. Work lives in conversations, not terminal tabs.
+- [agent-human-bridge](https://github.com/acoyfellow/agent-human-bridge) — auditable agent↔human software-building protocol designed to pass a human safety review.
 
 ## agent infrastructure
 
@@ -22,6 +23,7 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [pai-agent](https://github.com/acoyfellow/pai-agent) — research and analysis agent as a Cloudflare Durable Object with shell access, tool use, and WebSocket streaming.
 - [prism](https://github.com/acoyfellow/prism) — parallel experiment runner on Cloudflare: orchestrator, sub-agents, sandboxed Linux containers.
 - [cloudbox](https://github.com/acoyfellow/cloudbox) — synthetic cloud computers for training and evaluating long-horizon agents. Persona → filesystem → artifacts → collaborators → simulation → retrospective, end-to-end on Cloudflare.
+- [svelte-edge](https://github.com/acoyfellow/svelte-edge) — agent-generated Svelte 5 UI compiled on Cloudflare Workers into inline edge bundles.
 - [loop](https://github.com/acoyfellow/loop) — orchestrate AI coding loops with guardrails.
 - [chomp](https://github.com/acoyfellow/chomp) — OpenAI-compatible proxy across free/cheap model providers.
 - [ditto](https://github.com/acoyfellow/ditto) — run multiple AI models in parallel, merge with consensus.
@@ -33,6 +35,7 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 - [t2t](https://github.com/acoyfellow/t2t) — voice-to-text with MCP support and system-wide dictation.
 - [agentcast](https://github.com/acoyfellow/agentcast) — live browser sessions for AI agents; watch them work in real time.
 - [machinectl](https://github.com/acoyfellow/machinectl) — MCP server that lets AI control your machine from any device.
+- [cloudterm](https://github.com/acoyfellow/cloudterm) — DOM-rendered web terminal emulator built on `@chenglou/pretext`.
 - [firestore-mcp-kit](https://github.com/acoyfellow/firestore-mcp-kit) — build secure, typed MCP tools backed by Firestore with explicit Zod schemas.
 - [inbox.dog](https://inbox.dog) — OAuth for email, simplified. Gmail access tokens without implementing OAuth yourself.
 - [anytoolhq](https://anytoolhq.com) — generate tools for AI agents on demand.
@@ -40,6 +43,8 @@ I build small, sharp systems for AI agents: memory, sandboxes, control surfaces,
 
 ## cloudflare patterns
 
+- [ffmpeg-container](https://github.com/acoyfellow/ffmpeg-container) — tiny Cloudflare Containers hello world proving ffmpeg runs at the edge.
+- [ai-connect](https://github.com/acoyfellow/ai-connect) — minimal zero-dependency primitive for configuring and calling AI inference endpoints.
 - [remote](https://github.com/acoyfellow/remote) — `bun create remote-app my-app`: SvelteKit + auth + DB + Cloudflare deployment.
 - [UserDO](https://github.com/acoyfellow/UserDO) — per-user Durable Objects as data pods.
 - [blaze](https://github.com/acoyfellow/blaze) — real-time documents on Cloudflare. Firestore feel, Cloudflare price.
