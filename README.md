@@ -4,8 +4,6 @@ I'm Jordan. I work [@cloudflare](https://github.com/cloudflare) on the agent exp
 
 I build small, sharp systems for AI agents: memory, sandboxes, control surfaces, browser automation, and Cloudflare-native app patterns. I write about it at [coey.dev](https://coey.dev).
 
-**Currently:** one-session-forever chatbots backed by a rolling window + vector recall. The bet is that the right memory shape replaces the conversation pattern entirely. See [`loop`](https://github.com/acoyfellow/loop) and the writing below.
-
 ## start here
 
 - [**loop**](https://github.com/acoyfellow/loop) — a chatbot that ships working Svelte artifacts. One long session per account. Rolling window + Cloudflare Vectorize for everything older. Reset is the only escape.
