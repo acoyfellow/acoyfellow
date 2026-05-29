@@ -7,6 +7,7 @@ I build small tools for AI agents.. memory, sandboxes, control surfaces, browser
 ## start here
 
 - [**loop**](https://github.com/acoyfellow/loop): a chatbot that builds working Svelte widgets while you talk. One long session per account. Older messages roll into a vector store. Reset if you want to start over.
+- [**vibe-cdn**](https://github.com/acoyfellow/vibe-cdn): a Cloudflare game stack for heavy browser games. Drag a `.glb` onto the page, get an edge-cached URL back. Multiplayer arena, leaderboards, saves. [Live demo.](https://vibe-cdn.coey.dev)
 - [**cloudbox**](https://github.com/acoyfellow/cloudbox): synthetic cloud computers for training and evaluating long-horizon agents on Cloudflare. Persona, filesystem, artifacts, collaborators, simulation, retrospective.
 - [**deja**](https://github.com/acoyfellow/deja): persistent memory for agents. Agents learn from failures. Deja remembers.
 - [**desk**](https://github.com/acoyfellow/desk): a personal app store for tiny edge devices. `git push` installs apps. MCP lets agents use the device as an out-of-band human I/O surface.
