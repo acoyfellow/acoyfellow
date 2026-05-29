@@ -20,7 +20,7 @@ Some of my favorites from [coey.dev/blog](https://coey.dev/blog).
 - [**Campfire: The Oldest Protocol**](https://coey.dev/campfire): every storytelling medium had a context window. We've always been writing prompts, we just called them stories.
 - [**Prompts Are Wishes**](https://coey.dev/prompts-are-wishes): every prompt is a hypothesis. The guardrails are somewhere else.
 - [**Liquid Primitives**](https://coey.dev/liquid-primitives): five parts of your stack to hold loosely.
-- [**Compaction**](https://coey.dev/compaction): ran the experiment nobody ran. Goals survive. Reasoning doesn't.
+- [**Worker Loaders as a Place**](https://coey.dev/worker-loaders): Dynamic Workers clicked when I stopped thinking about the API and started thinking about the room.
 
 More at [coey.dev/blog](https://coey.dev/blog).
 
