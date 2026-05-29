@@ -10,7 +10,7 @@ I build small tools for AI agents.. memory, sandboxes, control surfaces, browser
 - [**vibe-cdn**](https://github.com/acoyfellow/vibe-cdn): a Cloudflare game stack for heavy browser games. Drag a `.glb` onto the page, get an edge-cached URL back. Multiplayer arena, leaderboards, saves. [Live demo.](https://vibe-cdn.coey.dev)
 - [**cloudbox**](https://github.com/acoyfellow/cloudbox): synthetic cloud computers for training and evaluating long-horizon agents on Cloudflare. Persona, filesystem, artifacts, collaborators, simulation, retrospective.
 - [**deja**](https://github.com/acoyfellow/deja): persistent memory for agents. Agents learn from failures. Deja remembers.
-- [**desk**](https://github.com/acoyfellow/desk): a personal app store for tiny edge devices. `git push` installs apps. MCP lets agents use the device as an out-of-band human I/O surface.
+- [**capa**](https://github.com/acoyfellow/capa): turn an OpenAPI spec into a Cloudflare Worker service binding. Every call returns the upstream result plus a proof bundle you can act on. Stripe, GitLab, Jira so far.
 - [**terrarium**](https://github.com/acoyfellow/terrarium): one-level orchestration harness for composable AI subagents.
 
 ## writing
@@ -31,7 +31,7 @@ More at [coey.dev/blog](https://coey.dev/blog).
 - [pai-agent](https://github.com/acoyfellow/pai-agent): research and analysis agent as a Cloudflare Durable Object with shell access, tool use, and WebSocket streaming.
 - [prism](https://github.com/acoyfellow/prism): parallel experiment runner on Cloudflare. Orchestrator, sub-agents, sandboxed Linux containers.
 - [wake](https://github.com/acoyfellow/wake): sessionless work continuity and handoffs for AI coding agents.
-- [capa](https://github.com/acoyfellow/capa): proof-carrying Cloudflare service bindings for third-party APIs.
+- [desk](https://github.com/acoyfellow/desk): a personal app store for tiny edge devices. `git push` installs apps. MCP lets agents use the device as an out-of-band human I/O surface.
 - [svelte-edge](https://github.com/acoyfellow/svelte-edge): agent-generated Svelte 5 UI compiled on Cloudflare Workers into inline edge bundles.
 - [chomp](https://github.com/acoyfellow/chomp): OpenAI-compatible proxy across free/cheap model providers.
 - [ditto](https://github.com/acoyfellow/ditto): run multiple AI models in parallel, merge with consensus.
