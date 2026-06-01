@@ -12,6 +12,7 @@ I build small tools for AI agents.. memory, sandboxes, control surfaces, browser
 - [**deja**](https://github.com/acoyfellow/deja): persistent memory for agents. Agents learn from failures. Deja remembers.
 - [**capa**](https://github.com/acoyfellow/capa): turn an OpenAPI spec into a Cloudflare Worker service binding. Every call returns the upstream result plus a proof bundle you can act on. Stripe, GitLab, Jira so far.
 - [**terrarium**](https://github.com/acoyfellow/terrarium): one-level orchestration harness for composable AI subagents.
+- [**echo**](https://github.com/acoyfellow/echo): drive a browser tab you're already signed into over MCP, without handing an agent your password or session token.
 
 ## writing
 
@@ -44,6 +45,7 @@ More at [coey.dev/blog](https://coey.dev/blog).
 
 ## agent tools
 
+- [echo](https://github.com/acoyfellow/echo): a Chrome extension plus Cloudflare Worker that makes your logged-in browser tab an MCP target, with origin-pinned sessions and audited plan runs.
 - [unsurf](https://github.com/acoyfellow/unsurf): turn any website into a typed API. Scout, replay, auto-heal.
 - [agentcast](https://github.com/acoyfellow/agentcast): live browser sessions for AI agents. Watch them work in real time.
 - [t2t](https://github.com/acoyfellow/t2t): voice-to-text with MCP support and system-wide dictation.
