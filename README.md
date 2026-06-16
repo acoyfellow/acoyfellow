@@ -2,17 +2,26 @@
 
 I'm Jordan. I work [@cloudflare](https://github.com/cloudflare) on the agent experience team.
 
-I build small tools for AI agents.. memory, sandboxes, control surfaces, browser automation, Cloudflare stuff. I write about it at [coey.dev](https://coey.dev).
+I build small tools for AI agents: memory, sandboxes, control surfaces, browser automation, and Cloudflare infrastructure. I write about it at [coey.dev](https://coey.dev).
 
-## start here
+## what I’m building now
 
-- [**loop**](https://github.com/acoyfellow/loop): a chatbot that builds working Svelte widgets while you talk. One long session per account. Older messages roll into a vector store. Reset if you want to start over.
-- [**vibe-cdn**](https://github.com/acoyfellow/vibe-cdn): a Cloudflare game stack for heavy browser games. Drag a `.glb` onto the page, get an edge-cached URL back. Multiplayer arena, leaderboards, saves. [Live demo.](https://vibe-cdn.coey.dev)
-- [**cloudbox**](https://github.com/acoyfellow/cloudbox): synthetic cloud computers for training and evaluating long-horizon agents on Cloudflare. Persona, filesystem, artifacts, collaborators, simulation, retrospective.
+Lately I’m working on small, composable surfaces where people and agents can share context, delegate work, and ship things on Cloudflare.
+
+- [**terrarium**](https://github.com/acoyfellow/terrarium): one bounded task → one child agent → one inspectable result. It now also has explicit containment probes and a public red-team campaign demo at [terrarium.coey.dev](https://terrarium.coey.dev).
+- [**up / inhouse**](https://github.com/acoyfellow/inhouse): put a company’s private web online on its own Cloudflare account. A folder becomes an immutable, Access-protected URL.
+- [**loops-yaml**](https://github.com/acoyfellow/loops-yaml): tiny scheduled or on-demand command loops, plus session-scoped recurring prompts for Pi.
+- [**mote**](https://github.com/acoyfellow/mote): a programmable, local-first Mac control shell. Edit a Svelte file; the native menu-bar interface changes immediately.
+- [**tuiport**](https://github.com/acoyfellow/tuiport): real SSH applications built with OpenTUI and deployed in a Cloudflare Container. [Live demo.](https://tuiport.coey.dev)
+- [**svelte-hono**](https://github.com/acoyfellow/svelte-hono): Svelte 5 SSR and hydration in a Hono Worker, without SvelteKit. [Docs.](https://svelte-hono.coey.dev)
+
+## established projects
+
 - [**deja**](https://github.com/acoyfellow/deja): persistent memory for agents. Agents learn from failures. Deja remembers.
-- [**capa**](https://github.com/acoyfellow/capa): turn an OpenAPI spec into a Cloudflare Worker service binding. Every call returns the upstream result plus a proof bundle you can act on. Stripe, GitLab, Jira so far.
-- [**terrarium**](https://github.com/acoyfellow/terrarium): one-level orchestration harness for composable AI subagents.
-- [**echo**](https://github.com/acoyfellow/echo): drive a browser tab you're already signed into over MCP, without handing an agent your password or session token.
+- [**echo**](https://github.com/acoyfellow/echo): drive a browser tab you’re already signed into over MCP, without handing an agent your password or session token.
+- [**cloudbox**](https://github.com/acoyfellow/cloudbox): synthetic cloud computers for training and evaluating long-horizon agents on Cloudflare.
+- [**capa**](https://github.com/acoyfellow/capa): third-party APIs as proof-carrying Cloudflare service bindings.
+- [**vibe-cdn**](https://github.com/acoyfellow/vibe-cdn): a Cloudflare game stack for heavy browser games. [Live demo.](https://vibe-cdn.coey.dev)
 
 ## writing
 
