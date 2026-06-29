@@ -8,8 +8,10 @@ I build small tools for AI agents: memory, sandboxes, control surfaces, browser 
 
 Lately I’m working on small, composable surfaces where people and agents can share context, delegate work, and ship things on Cloudflare.
 
-- [**terrarium**](https://github.com/acoyfellow/terrarium): one bounded task → one child agent → one inspectable result. It now also has explicit containment probes and a public red-team campaign demo at [terrarium.coey.dev](https://terrarium.coey.dev).
-- [**up / inhouse**](https://github.com/acoyfellow/inhouse): put a company’s private web online on its own Cloudflare account. A folder becomes an immutable, Access-protected URL.
+- [**terrarium**](https://github.com/acoyfellow/terrarium): one bounded task → one child agent → one inspectable result. One-level orchestration for composable subagents, with containment probes and a public red-team demo at [terrarium.coey.dev](https://terrarium.coey.dev).
+- [**my-ax**](https://github.com/acoyfellow/my-ax): a personal AI agent operating environment you self-host on Cloudflare. [Live.](https://my-ax.coey.dev)
+- [**kumo-compiler**](https://github.com/acoyfellow/kumo-compiler): author a component once in canonical React; compile to genuine native Vue, Svelte, and Solid. [Live gallery.](https://kumo-compiler.coey.dev)
+- [**up / inhouse**](https://github.com/acoyfellow/up): put a company’s private web online on its own Cloudflare account. A folder becomes an immutable, Access-protected URL. [Live.](https://up.coey.dev)
 - [**loops-yaml**](https://github.com/acoyfellow/loops-yaml): tiny scheduled or on-demand command loops, plus session-scoped recurring prompts for Pi.
 - [**mote**](https://github.com/acoyfellow/mote): a programmable, local-first Mac control shell. Edit a Svelte file; the native menu-bar interface changes immediately.
 - [**tuiport**](https://github.com/acoyfellow/tuiport): real SSH applications built with OpenTUI and deployed in a Cloudflare Container. [Live demo.](https://tuiport.coey.dev)
