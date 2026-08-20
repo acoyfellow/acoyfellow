@@ -1,0 +1,19 @@
+README.md
+  s_9ea43334029fe9::t_a09d95d3bb4de4 5,7,9,12-17,21,24-29,33-35,37-49,53,55,57-71,75-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3a0b7b56330fd298f803103c32b9d4227eb093f3",
+  "prompts": {},
+  "sessions": {
+    "s_9ea43334029fe9": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a00c04-39b0-7c41-8f8c-319dfb49fbd0",
+        "model": "grok-4.6"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
