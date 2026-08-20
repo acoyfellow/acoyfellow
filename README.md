@@ -2,31 +2,27 @@
 
 I'm Jordan. I work [@cloudflare](https://github.com/cloudflare) on the agent experience team.
 
-I build small tools for AI agents: memory, sandboxes, control surfaces, browser automation, and Cloudflare infrastructure. I write about it at [coey.dev](https://coey.dev).
+I build small tools for AI agents: memory, sandboxes, proof, control surfaces, browser automation, and Cloudflare infrastructure. I write about it at [coey.dev](https://coey.dev).
 
-## what I'm building now
-
-Small, composable surfaces where people and agents can share context, delegate work, and ship things on Cloudflare.
+## operating environments
 
 - [**my-ax**](https://github.com/acoyfellow/my-ax): a personal AI agent operating environment you self-host on Cloudflare. Chat, desk, recipes, machines, and a factory that classifies GitHub issues. A human still merges.
+- [**loop**](https://loop.coey.dev): one permanent conversation with an agent that builds your interface as you work. Every reply can compile a real Svelte 5 widget next to the chat, and it remembers what you tell it.
+- [**mote**](https://mote.coey.dev): a programmable, local-first Mac control shell. Edit a Svelte file; the native menu-bar interface changes immediately.
+- [**filepath**](https://myfilepath.com): your own background agent environment. Workspaces, sandboxed filesystems, harness registry, and your own model keys.
+- [**up**](https://up.coey.dev): put a company's private web online on its own Cloudflare account. A folder becomes an immutable, Access-protected URL.
+
+## orchestration
+
 - [**terrarium**](https://terrarium.coey.dev): execution, status, receipts, cancellation, and callbacks for bounded delegated agent tasks. One bounded task → one child run → one inspectable result.
-- [**terraloop-mode**](https://github.com/acoyfellow/terraloop-mode): turn an agent orchestration protocol into a tool-call gate. No child agents spawn until a contract is locked and a driver loop exists. A Pi extension.
-- [**pantry**](https://pantry.coey.dev): a capability-scoped recipe store on Cloudflare Workers + D1. Agents fetch exact saved code. Pantry never runs it.
-- [**gateproof**](https://gateproof.dev): a local proof loop. Put the claim in a typed plan; it runs gates — observe, act, assert — until they pass or stop. Workers may change implementation. They may not rewrite `plan.ts`.
-- [**tollgate**](https://github.com/acoyfellow/tollgate): a local HTTP policy gate. Every request meets a rule before it leaves your machine.
-- [**airlock**](https://github.com/acoyfellow/airlock): push a candidate version, run its tests on a dark URL, and make it live only if a signed proof of those tests passes. Fail closed.
+- [**terraloop-mode**](https://github.com/acoyfellow/terraloop-mode): no child agents spawn until a contract is locked and a driver loop exists. A Pi extension.
 - [**hold**](https://github.com/acoyfellow/hold): a job waits. A runner claims once. There is no poll.
 - [**lease**](https://github.com/acoyfellow/lease): subscribe a pantry recipe to a peer outbox for a bounded time.
 - [**room**](https://github.com/acoyfellow/room): disposable URL. Mint a room.
 - [**trick**](https://github.com/acoyfellow/trick): two URLs. Write yours. Read theirs. Not a chat.
 - [**cell**](https://github.com/acoyfellow/cell): invoke a named tenant. Get result and evidence. Do not receive source.
 - [**tip**](https://github.com/acoyfellow/tip): commits and trees. History is the product.
-- [**kumo-compiler**](https://kumo-compiler.coey.dev): author a component once in canonical React; compile to genuine native Vue, Svelte, and Solid.
-- [**up**](https://github.com/acoyfellow/up): put a company's private web online on its own Cloudflare account. A folder becomes an immutable, Access-protected URL.
-- [**loop**](https://loop.coey.dev): one permanent conversation with an agent that builds your interface as you work. Every reply can compile a real Svelte 5 widget next to the chat, and it remembers what you tell it.
-- [**mote**](https://mote.coey.dev): a programmable, local-first Mac control shell. Edit a Svelte file; the native menu-bar interface changes immediately.
-- [**tuiport**](https://tuiport.coey.dev): real SSH applications built with OpenTUI and deployed in a Cloudflare Container.
-- [**svelte-hono**](https://svelte-hono.coey.dev): Svelte 5 SSR and hydration in a Hono Worker, without SvelteKit.
+- [**pantry**](https://pantry.coey.dev): a capability-scoped recipe store on Cloudflare Workers + D1. Stores and hands back scripts; never runs them.
 
 ## memory & continuity
 
@@ -45,7 +41,7 @@ Small, composable surfaces where people and agents can share context, delegate w
 - [**prism**](https://github.com/acoyfellow/prism): parallel experiment runner on Cloudflare. Orchestrator, sub-agents, and sandboxed Linux containers.
 - [**effect-agents**](https://effect-agents.coey.dev): five agent patterns proven with Effect v4 — parallelism, streaming cancellation, approvals, typed errors, and MCP exposure.
 - [**parley**](https://github.com/acoyfellow/parley): two AI models debate until they agree on a plan.
-- [**molt**](https://github.com/acoyfellow/molt): an agent writes a tool, the loop injects a fault, and the agent repairs it. A separate verifier decides whether it passed — the agent does not.
+- [**molt**](https://molt.coey.dev): an agent writes a tool, the loop injects a fault, and the agent repairs it. A separate verifier decides whether it passed — the agent does not.
 - [**ditto**](https://ditto.coey.dev): run multiple Cloudflare AI models simultaneously. Merge every output with consensus.
 
 ## agent tools
@@ -55,13 +51,6 @@ Small, composable surfaces where people and agents can share context, delegate w
 - [**agentcast**](https://github.com/acoyfellow/agentcast): live browser sessions for AI agents. Watch them work in real time.
 - [**machinectl**](https://github.com/acoyfellow/machinectl): MCP server that lets AI control your machine from any device.
 - [**chomp**](https://chomp.coey.dev): OpenAI-compatible proxy for free LLM providers. Bring your keys. We route the rest.
-- [**pantry**](https://pantry.coey.dev): a capability-scoped recipe store on Cloudflare Workers + D1. Stores and hands back scripts; never runs them.
-- [**hold**](https://github.com/acoyfellow/hold): a job waits. A runner claims once. There is no poll.
-- [**lease**](https://github.com/acoyfellow/lease): subscribe a pantry recipe to a peer outbox for a bounded time.
-- [**room**](https://github.com/acoyfellow/room): disposable URL. Mint a room.
-- [**trick**](https://github.com/acoyfellow/trick): two URLs. Write yours. Read theirs. Not a chat.
-- [**cell**](https://github.com/acoyfellow/cell): invoke a named tenant. Get result and evidence. Do not receive source.
-- [**tip**](https://github.com/acoyfellow/tip): commits and trees. History is the product.
 - [**mcp-code-mode**](https://github.com/acoyfellow/mcp-code-mode): wrap a Node/Bun MCP server with fail-closed search and sandboxed multi-tool execution.
 - [**cmux-webchat**](https://github.com/acoyfellow/cmux-webchat): drive authenticated web chat UIs through cmux without exporting browser credentials.
 - [**vidframes**](https://github.com/acoyfellow/vidframes): cost-aware video frame extraction, vision analysis, and audio transcription via Workers AI.
@@ -74,7 +63,6 @@ Small, composable surfaces where people and agents can share context, delegate w
 
 Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the coding agent — the tools I run my own agents on every day.
 
-- [**terraloop-mode**](https://github.com/acoyfellow/terraloop-mode): no child agents spawn until a contract is locked and a driver loop exists.
 - [**witness**](https://github.com/acoyfellow/witness-pi): a coding agent shouldn't decide its own work is done. Runs a real check against what the agent produced and blocks the action if it fails.
 - [**hashline-pi**](https://github.com/acoyfellow/hashline-pi): line-anchored, tag-verified file edits with in-memory preflight and 3-way-merge recovery.
 - [**mutex-pi**](https://github.com/acoyfellow/mutex-pi): cross-process file lock and optimistic stale-read guard for Pi's read, edit, and write tools.
@@ -86,7 +74,6 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 - [**lab**](https://lab.coey.dev): a sandbox that hands you the receipt. Isolated execution on Cloudflare Worker Loaders; every step becomes a shareable trace.
 - [**cloudbox**](https://cloudbox.coey.dev): durable Cloudflare computers for agents — run repos, steer live workspaces, verify results, and return receipts.
 - [**cloudshell**](https://cloudshell.coey.dev): browser-based terminal and dev environment in the cloud. Instant access to a full shell from anywhere.
-- [**filepath**](https://myfilepath.com): your own background agent environment. Workspaces, sandboxed filesystems, harness registry, and your own model keys.
 - [**cloudterm**](https://github.com/acoyfellow/cloudterm): DOM-rendered web terminal emulator with custom ANSI parsing and latency prediction.
 - [**mcpu**](https://github.com/acoyfellow/mcpu): an MCP control surface for a Cloudflare Artifacts repo. GitHub is only the bootstrap seed; after first deploy, commits live in Artifacts and deploy back to Workers.
 - [**promptlog**](https://github.com/acoyfellow/promptlog): Dynamic Worker Loader with sandboxed code execution.
@@ -111,7 +98,7 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 - [**cloudeval**](https://github.com/acoyfellow/cloudeval): run model evals, compare results, and ship shareable reports.
 - [**corrections-to-gates**](https://github.com/acoyfellow/corrections-to-gates): mine your own AI agent-correction exhaust into deterministic $0 gates for the mechanical slice of your corrections.
 - [**visual-diff**](https://github.com/acoyfellow/visual-diff): framework-agnostic 3-tier visual-diff cascade — structure, computed style, and pixels — for a fail-closed 1:1 verdict.
-- [**semantic-diff**](https://github.com/acoyfellow/semantic-diff): extends visual-diff to a fail-closed 5-tier verdict with accessibility/semantic tiers (accessible name, description, state, id-reference graph).
+- [**semantic-diff**](https://github.com/acoyfellow/semantic-diff): extends visual-diff to a fail-closed 5-tier verdict with accessibility/semantic tiers.
 - [**vitest-visual-diff**](https://github.com/acoyfellow/vitest-visual-diff): compare two live elements through structure, computed style, pixels, and accessibility in Vitest Browser Mode.
 - [**agent-human-bridge**](https://github.com/acoyfellow/agent-human-bridge): auditable agent and human software-building protocol designed to pass a human safety review.
 - [**repo-audit**](https://repo-audit.coey.dev): deterministic repo scoring across 11 quality dimensions.
@@ -123,6 +110,9 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 
 ## cloudflare patterns
 
+- [**svelte-hono**](https://svelte-hono.coey.dev): Svelte 5 SSR and hydration in a Hono Worker, without SvelteKit.
+- [**kumo-compiler**](https://kumo-compiler.coey.dev): author a component once in canonical React; compile to genuine native Vue, Svelte, and Solid.
+- [**tuiport**](https://tuiport.coey.dev): real SSH applications built with OpenTUI and deployed in a Cloudflare Container.
 - [**svelte-edge**](https://svelte-edge.coey.dev): agent-generated Svelte 5 UI compiled on Cloudflare Workers into inline edge bundles.
 - [**capa**](https://capa.coey.dev): third-party APIs as proof-carrying Cloudflare service bindings.
 - [**UserDO**](https://github.com/acoyfellow/UserDO): per-user Durable Objects as data pods.
