@@ -4,6 +4,16 @@ I'm Jordan. I work [@cloudflare](https://github.com/cloudflare) on the agent exp
 
 I build small tools for AI agents: memory, sandboxes, proof, control surfaces, browser automation, and Cloudflare infrastructure. I write about it at [coey.dev](https://coey.dev).
 
+## new this month
+
+- [**write-judge**](https://github.com/acoyfellow/write-judge): your coding agent can't delete the test to make it pass. A Pi extension; a small yes/no model judges every edit before it lands. `pi install git:github.com/acoyfellow/write-judge`
+- [**coil**](https://coil.coey.dev): one thread, one agent, one computer. Pi Durable and a Cloudflare Container in one Durable Object.
+- [**skin**](https://github.com/acoyfellow/skin): an app that rewrites its own code while you use it, and can't brick itself.
+- [**tardigrade**](https://github.com/acoyfellow/tardigrade): an agent you can kill, and it comes back. Pi Durable + Durable Objects + Artifacts.
+- [**hark**](https://hark.coey.dev): a voice you talk to. No chat box. Deepgram Flux hears, Workers AI thinks, and it speaks back.
+- [**odds**](https://odds.coey.dev): ask for odds, not prose. Clef decision models in Pi codemode.
+- [**chat-ax**](https://github.com/acoyfellow/chat-ax): a shared team chat room with a durable fleet of AI agents, on your own Cloudflare account.
+
 ## operating environments
 
 - [**my-ax**](https://github.com/acoyfellow/my-ax): a personal AI agent operating environment you self-host on Cloudflare. Chat, desk, recipes, machines, and a factory that classifies GitHub issues. A human still merges.
@@ -11,6 +21,9 @@ I build small tools for AI agents: memory, sandboxes, proof, control surfaces, b
 - [**mote**](https://mote.coey.dev): a programmable, local-first Mac control shell. Edit a Svelte file; the native menu-bar interface changes immediately.
 - [**filepath**](https://myfilepath.com): your own background agent environment. Workspaces, sandboxed filesystems, harness registry, and your own model keys.
 - [**up**](https://up.coey.dev): put a company's private web online on its own Cloudflare account. A folder becomes an immutable, Access-protected URL.
+- [**hangar**](https://github.com/acoyfellow/hangar): give an agent a task, not your keys. Ready locked boxes on Cloudflare.
+- [**spawn-agent-cloud**](https://github.com/acoyfellow/spawn-agent-cloud): spawn an AI agent in Cloudflare, not on your laptop.
+- [**executor-cloudflare**](https://github.com/acoyfellow/executor-cloudflare): deploy Executor, the open-source agent integration layer, to your own Cloudflare account in one step.
 
 ## orchestration
 
@@ -23,6 +36,10 @@ I build small tools for AI agents: memory, sandboxes, proof, control surfaces, b
 - [**cell**](https://github.com/acoyfellow/cell): invoke a named tenant. Get result and evidence. Do not receive source.
 - [**tip**](https://github.com/acoyfellow/tip): commits and trees. History is the product.
 - [**pantry**](https://pantry.coey.dev): a capability-scoped recipe store on Cloudflare Workers + D1. Stores and hands back scripts; never runs them.
+- [**harness-runtime**](https://github.com/acoyfellow/harness-runtime): a runtime contract for agent context, capability, authority, execution, proof, and continuity.
+- [**agent-patterns**](https://github.com/acoyfellow/agent-patterns): a practical library of bounded, steerable agent execution patterns.
+- [**promotion-atom**](https://github.com/acoyfellow/promotion-atom): a deterministic kernel that decides when successful agent work becomes a reusable artifact.
+- [**ralph**](https://github.com/acoyfellow/ralph): processes stories from a PRD, one story per run, with strict checks.
 
 ## memory & continuity
 
@@ -31,6 +48,7 @@ I build small tools for AI agents: memory, sandboxes, proof, control surfaces, b
 - [**imprint**](https://imprint.coey.dev): immutable commit-bound repository context so an LLM can answer, compare, promote, and roll back against exact code versions.
 - [**cache-layer**](https://github.com/acoyfellow/cache-layer): verified recipe routing for AI agents on Cloudflare.
 - [**rolling-context-lab**](https://github.com/acoyfellow/rolling-context-lab): a reproducible lab for measuring rolling context compaction in long-running agents.
+- [**pi-fresh-session-handoff**](https://github.com/acoyfellow/pi-fresh-session-handoff): context-threshold hooks, Deja auto-memory, and safe fresh-session handoff for Pi.
 
 ## research & multi-agent
 
@@ -38,11 +56,14 @@ I build small tools for AI agents: memory, sandboxes, proof, control surfaces, b
 - [**orbit**](https://orbit.coey.dev): bounded public-source monitor that turns releases and posts into evidence-linked briefs.
 - [**pai-agent**](https://github.com/acoyfellow/pai-agent): research and analysis agent as a Cloudflare Durable Object with shell access, tool use, and WebSocket streaming.
 - [**swarm**](https://swarm.coey.dev): parallel research agents on your own Cloudflare account, across Workers, Durable Objects, and Workers AI.
-- [**prism**](https://github.com/acoyfellow/prism): parallel experiment runner on Cloudflare. Orchestrator, sub-agents, and sandboxed Linux containers.
 - [**effect-agents**](https://effect-agents.coey.dev): five agent patterns proven with Effect v4 — parallelism, streaming cancellation, approvals, typed errors, and MCP exposure.
 - [**parley**](https://github.com/acoyfellow/parley): two AI models debate until they agree on a plan.
 - [**molt**](https://molt.coey.dev): an agent writes a tool, the loop injects a fault, and the agent repairs it. A separate verifier decides whether it passed — the agent does not.
 - [**ditto**](https://ditto.coey.dev): run multiple Cloudflare AI models simultaneously. Merge every output with consensus.
+- [**speedrun**](https://speedrun.coey.dev): three Workers AI models race to fix the same bug in containers; a referee reruns the tests.
+- [**jido-cartographer**](https://github.com/acoyfellow/jido-cartographer): map a public GitHub repo with one Jido agent per source file, on the BEAM.
+- [**benchmarks**](https://github.com/acoyfellow/benchmarks): tool-calling reliability and latency tracking for Workers AI models.
+- [**lower**](https://github.com/acoyfellow/lower): one floor lower each experiment, from JavaScript to the math inside models. Claims and receipts.
 
 ## agent tools
 
@@ -58,6 +79,16 @@ I build small tools for AI agents: memory, sandboxes, proof, control surfaces, b
 - [**anytool**](https://anytoolhq.com): give your AI agent infinite tools with one API call.
 - [**inbox.dog**](https://inbox.dog): Gmail OAuth for AI agents. Read, write, search, and send with one integration.
 - [**firestore-mcp-kit**](https://github.com/acoyfellow/firestore-mcp-kit): build secure, typed MCP tools backed by Firestore with explicit Zod schemas.
+- [**getlee**](https://github.com/acoyfellow/getlee): turn any prompt into a link that opens Cloudflare's Agent Lee, ready to send.
+- [**lee**](https://github.com/acoyfellow/lee): a standalone open-source Agent Lee client built with Svelte, Hono, and Effect 4.
+- [**lee-model**](https://github.com/acoyfellow/lee-model): Agent Lee as a model name. An OpenAI-compatible Worker with server-side tools.
+- [**artifacts-lee-skills**](https://github.com/acoyfellow/artifacts-lee-skills): team-editable agent skills on Cloudflare Artifacts. `git push` to update.
+- [**mulder**](https://mulder.coey.dev): add selected read-only API tools to a website with WebMCP.
+- [**predict**](https://predict.coey.dev): a small browser signal for the next useful step on a website.
+- [**jev-code-mode**](https://github.com/acoyfellow/jev-code-mode): typed Jev judgments behind two MCP tools, search and execute.
+- [**homerun**](https://github.com/acoyfellow/homerun): turn your laptop into a local HTTP proxy for web automation.
+- [**ralphwiggums**](https://github.com/acoyfellow/ralphwiggums): Effect-first browser automation on Cloudflare Workers. Give it a prompt, get a completed task.
+- [**effect-first**](https://effect-first.coey.dev): a resource for agents that want to write proper Effect programs.
 
 ## pi
 
@@ -68,6 +99,8 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 - [**mutex-pi**](https://github.com/acoyfellow/mutex-pi): cross-process file lock and optimistic stale-read guard for Pi's read, edit, and write tools.
 - [**loops-yaml**](https://github.com/acoyfellow/loops-yaml): session-scoped recurring prompts for Pi and OpenCode, plus tiny scheduled or on-demand command loops.
 - [**auto-thinking-pi**](https://github.com/acoyfellow/auto-thinking-pi): classifies prompt difficulty with a local heuristic and sets the reasoning effort for the next turn — no extra model call.
+- [**edit**](https://github.com/acoyfellow/edit): a small, approval-first Pi tool for safe, checked code changes.
+- [**pi-ext-durable**](https://github.com/acoyfellow/pi-ext-durable): a stock Pi extension running inside a Durable Object agent on pi-durable.
 
 ## sandboxes & environments
 
@@ -78,6 +111,11 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 - [**mcpu**](https://github.com/acoyfellow/mcpu): an MCP control surface for a Cloudflare Artifacts repo. GitHub is only the bootstrap seed; after first deploy, commits live in Artifacts and deploy back to Workers.
 - [**promptlog**](https://github.com/acoyfellow/promptlog): Dynamic Worker Loader with sandboxed code execution.
 - [**ffmpeg-container**](https://github.com/acoyfellow/ffmpeg-container): tiny Cloudflare Containers hello world proving ffmpeg runs at the edge.
+- [**termlab**](https://termlab.coey.dev): side-by-side benchmark of web terminal emulators.
+- [**tsc-rs-worker**](https://github.com/acoyfellow/tsc-rs-worker): the TypeScript 7 type checker (tsc-rs) running in memory inside a Cloudflare Worker.
+- [**nix-cf-proof**](https://github.com/acoyfellow/nix-cf-proof): one devenv.nix gives a git that cannot force-push, on your Mac and in a Cloudflare Container.
+- [**zero-cloudflare-hello**](https://github.com/acoyfellow/zero-cloudflare-hello): run a Zero native executable on Cloudflare Containers.
+- [**tldraw-sandbox**](https://github.com/acoyfellow/tldraw-sandbox): an infinite canvas with AI-powered code terminals.
 
 ## observability & devices
 
@@ -86,6 +124,9 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 - [**t2t**](https://t2t.now): local push-to-talk dictation for macOS. Hold Fn to type with on-device Whisper; hold Fn+Ctrl to talk to a local Pi agent.
 - [**living-artifact**](https://github.com/acoyfellow/living-artifact): physical and digital artifacts and tiny devices, with Cloudflare-hosted firmware OTA and health-gated rollback.
 - [**anvil**](https://anvil.coey.dev): animations agents can write. Lottie + three.js in one JSON dialect, on Cloudflare Workers.
+- [**blackbox**](https://blackbox.coey.dev): replay a Pi agent log as a timeline and see which step Clef scores as the fault.
+- [**lookout**](https://github.com/acoyfellow/lookout): private, view-only live screen streaming on Cloudflare.
+- [**entropy-c**](https://github.com/acoyfellow/entropy-c): a portable physical-entropy experiment for Cloudflare's NYC office.
 
 ## proof & security
 
@@ -107,6 +148,18 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 - [**deadlint**](https://github.com/acoyfellow/deadlint): find dead public methods on Workers DurableObject / RpcTarget / Agent classes, plus structural clones. The linter layer above knip/oxlint.
 - [**ascii-smuggler**](https://github.com/acoyfellow/ascii-smuggler): Unicode smuggling and steganography toolkit for security research.
 - [**gate-review**](https://github.com/acoyfellow/gate-review): red-team your gates before implementing them.
+- [**nightglass**](https://github.com/acoyfellow/nightglass): an owned, deterministic classifier for whether agent claims are supported by evidence.
+- [**killjoy**](https://github.com/acoyfellow/killjoy): crash-test Durable Object agents. Kill at every save point and check what breaks.
+- [**basic**](https://github.com/acoyfellow/basic): a conformance suite for agent chat. The behaviors every chat app must keep, as Gherkin.
+- [**capability-frontier**](https://github.com/acoyfellow/capability-frontier): a reproducible benchmark for useful coding-agent autonomy under enforced capability limits.
+- [**agent-adversary**](https://github.com/acoyfellow/agent-adversary): fail-closed Rust/Wasm validation for adversarial agent operations.
+- [**self-healing-ci**](https://github.com/acoyfellow/self-healing-ci): a bounded reference implementation for authenticated CI repair.
+- [**mutant-nightly**](https://github.com/acoyfellow/mutant-nightly): a nightly agent that finds proven test gaps with mutation testing and opens a PR to close them.
+- [**flue-gitlab-test-improver**](https://github.com/acoyfellow/flue-gitlab-test-improver): a nightly Flue agent that adds missing tests to a GitLab repo and opens a draft MR.
+- [**greenlight**](https://greenlight.coey.dev): gates go in red. Code comes out. Gates turn green.
+- [**exhaust**](https://github.com/acoyfellow/exhaust): turn the review comments you wrote into an evidence-linked checklist.
+- [**goodput**](https://github.com/acoyfellow/goodput): evidence-adjusted efficiency for AI-assisted work.
+- [**doclint**](https://github.com/acoyfellow/doclint): returns what an agent understood from your documentation, so you can see what it missed.
 
 ## cloudflare patterns
 
@@ -130,11 +183,21 @@ Extensions for [Pi](https://github.com/earendil-works/pi-coding-agent), the codi
 - [**flue-snippets**](https://github.com/acoyfellow/flue-snippets): real, runnable Flue agents on Cloudflare. Every snippet ships an E2E test that deploys, asserts, and tears down.
 - [**think-snippets**](https://github.com/acoyfellow/think-snippets): live-proven Cloudflare Project Think contracts. Each example deploys to a real Worker, proves its claim against live state, and tears itself down.
 - [**optkit**](https://github.com/acoyfellow/optkit): email subscriber management for Cloudflare Workers.
+- [**facets-stress-test**](https://github.com/acoyfellow/facets-stress-test): how far one Durable Object can go as a parent of facets, measured in production.
+- [**kumo-astro-demo**](https://kumo-astro-demo.coey.dev): Astro consuming Kumo design-system components directly. No React.
+- [**phoneline**](https://github.com/acoyfellow/phoneline): a minimal voice AI agent on Workers, Twilio, and OpenAI Realtime.
+- [**rank**](https://github.com/acoyfellow/rank): an agentic SEO loop that runs on your own Cloudflare account.
+- [**tax-agent**](https://tax-agent.coey.dev): an AI tax filing agent on Cloudflare Workers.
 
 ## games
 
 - [**vibe-cdn**](https://vibe-cdn.coey.dev): browser games on Cloudflare's edge.
 - [**arcade**](https://arcade.coey.dev): neon hovercraft survival. A browser game built and deployed on Cloudflare.
+- [**heist**](https://heist.coey.dev): a prompt injection game. Get VaultBot (Llama 3.3 70B) to leak the vault.
+- [**zoo**](https://zoo.coey.dev): a shared world where each creature runs JavaScript a model wrote from one sentence.
+- [**terra**](https://github.com/acoyfellow/terra): a multiplayer 3D terrain playground on Workers, Svelte, three.js, and Durable Objects.
+- [**oven**](https://github.com/acoyfellow/oven): chat a 3D game into existence on Cloudflare.
+- [**food-court**](https://github.com/acoyfellow/food-court): multiplayer food games on Workers + Durable Objects. One repo, many stalls.
 
 ## running
 
